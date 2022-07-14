@@ -6,12 +6,12 @@ import CommentDetail from './CommentDetail'
 const App = () => {
   return (
     <div className="ui container comments">
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
+      <CommentDetail author={faker.name.firstName()}/>
+      <CommentDetail author={faker.name.firstName()}/>
+      <CommentDetail author={faker.name.firstName()}/>
+      <CommentDetail author={faker.name.firstName()}/>
+      <CommentDetail author={faker.name.firstName()}/>
+      <CommentDetail author={faker.name.firstName()}/>
     </div>
 
   );
